@@ -165,7 +165,3 @@ final_person_contact_df.write.format('jdbc')\
                              .option('database',jdbcDatabase)\
                              .option('dbtable', 'Person.PersonContact')\
                              .save()
-
-# COMMAND ----------
-
-pesquisar spark config
